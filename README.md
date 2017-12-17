@@ -7,7 +7,7 @@ This node allows you to offset lowpoly's vertices in such a way that it will mat
 Essentially, it's kinda the opposite of "smooth the mesh then remove any newly created vertices".
 
 ![Base mesh screenshot](/../screenshots/screenshots/0-base.png?raw=true "Base mesh") ![Base mesh subdivided screenshot](/../screenshots/screenshots/0-smoothed.png?raw=true "Base mesh subdivided")
-![Compensated mesh screenshot](/../screenshots/screenshots/1-baseCompensated.png?raw=true "Compensated mesh") ![Compensated mesh subdivided screenshot](/../screenshots/screenshots/1-baseCompensated.png?raw=true "Compensated mesh subdivided")
+![Compensated mesh screenshot](/../screenshots/screenshots/1-baseCompensated.png?raw=true "Compensated mesh") ![Compensated mesh subdivided screenshot](/../screenshots/screenshots/1-smoothedCompensated.png?raw=true "Compensated mesh subdivided")
 
 Limitations:
 * Unfortunately, only Houdini's "Mantra Catmull-Clark" is supported due to some technical limitations _(houdini doesn't provide an easy way to track down the original points after subdividing the mesh)_.
